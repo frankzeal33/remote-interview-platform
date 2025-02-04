@@ -29,7 +29,7 @@ function MeetingSetup({ onSetupComplete }: { onSetupComplete: () => void }) {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-6 bg-background/95">
+    <div className="min-h-screen flex items-center justify-center px-2 py-6 md:px-6 bg-background/95">
       <div className="w-full max-w-[1200px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* VIDEO PREVIEW CONTAINER */}
