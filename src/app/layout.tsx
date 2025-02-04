@@ -29,6 +29,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <ConvexClerkProvider>
       <html lang="en" suppressHydrationWarning>
@@ -47,7 +48,7 @@ export default function RootLayout({
             </SignedIn>
 
             <SignedOut>
-              <RedirectToSignIn />
+              <RedirectToSignIn/>
             </SignedOut>
           </ThemeProvider>
           <Toaster />
